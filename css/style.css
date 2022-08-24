@@ -1164,3 +1164,8 @@
     -webkit-transition: 0.3s;
     transition: 0.3s
 }
+
+.frontE-atividades span {
+   
+    color: blueviolet;
+}
