@@ -1,0 +1,524 @@
+:root {
+  --primary: #F0A83E;
+  --secondary: #3C2313;
+  --tertiary: #222222;
+  --text-color: white;
+  --text-secondary: black;
+  --text-tertiary: #F0A83E;
+
+}
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#barInfo {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  background-color: var(--tertiary);
+  height: 25px;
+  width: 100%;
+  color: var(--text-color);
+  align-content: center;
+
+}
+
+#barInfo select {
+  text-decoration: none;
+  background-color: var(--tertiary);
+  color: var(--text-color);
+  border: none;
+}
+
+#barInfo #ofer {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+
+#barInfo #langCoin {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#barInfo #langCoin a {
+  padding-left: 20px;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+
+
+
+#menu {
+  background-color: var(--primary);
+  height: 62px;
+
+}
+
+#menu #titleLogo {
+
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2em;
+  padding-top: 15px;
+}
+
+#menu #titleLogo img {
+  width: 20px;
+  height: 20px;
+}
+
+#menu #titleLogo p {
+  font-size: 1.4em;
+  font-weight: 900;
+  color: var(--text-secondary);
+}
+
+#menu #titleLogo #reftitleLogo p {
+  color: var(--text-color);
+}
+
+
+#menu ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3%;
+  margin-right: 10%;
+  margin-top: -1.3em;
+  /*Duvida*/
+}
+
+#menu li {
+  list-style-type: none;
+}
+
+#menu a {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+#menu #itens-menu img {
+
+  height: 16px;
+  width: 16px;
+
+}
+
+#pet-event {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/bowl-and-pet-daities-on-green-background\ 1.png");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+#disclaimer-box {
+
+  width: 100%;
+  height: 50px;
+  text-align: center;
+
+  background: var(--text-color);
+  box-shadow: rgba(0, 4, 4, .3);
+  border-radius: 5px;
+  margin-right: 5em;
+}
+
+#disclaimer h2 {
+  color: var(--text-secondary);
+  padding: 10px 0px;
+}
+
+#disclaimer p {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 35%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 30%;
+  /*tirar duvida*/
+  cursor: pointer;
+  opacity: 0.8;
+
+}
+
+.btn:hover {
+  opacity: 5;
+}
+
+/* SECTION BENEFITS*/
+#key-benefits {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#key-benefits h2 {
+  color: var(--secondary);
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+#key-benefits #imgLogo {
+  background-image: url("../images/pawprint\ 1.png");
+  background-size: cover;
+  background-position: center;
+  height: 70px;
+  width: 70px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 48%;
+  /*tirar duvida*/
+
+}
+
+#key-benefits ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.benefit {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
+}
+
+.benefit .benefit-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+
+#benefit-1 {
+  background-image: url("../images/churrasquito.png");
+}
+
+#benefit-2 {
+  background-image: url("../images/comedero.png");
+}
+
+#benefit-3 {
+  background-image: url("../images/Huesito.png");
+}
+
+
+/*SECTION CONTATO event form*/
+
+#contat-form {
+  max-width: 30%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  margin-left: 32%;
+  /*tirar duvida*/
+}
+
+#contat-form p {
+  text-align: center;
+  color: var(--secondary);
+  font-weight: 800;
+  font-size: 2em;
+  margin-bottom: 0.7em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6em;
+  width: 100%;
+  align-content: center;
+}
+
+.form-group input {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--secondary);
+  color: var(--text-color);
+  font-size: 1.2em;
+  display: flex;
+}
+
+#button {
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 35%;
+  padding: 12px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 15px;
+  margin-left: 30%;
+  /*tirar duvida*/
+  cursor: pointer;
+  opacity: 0.8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnLimpar {
+  background-color: var(--tertiary);
+
+}
+
+.btnEnviar {
+  background-color: var(--primary);
+}
+
+#button:hover {
+  opacity: 2;
+}
+
+#info-mail {
+  display: flex;
+  background-color: var(--primary);
+  justify-content: space-around;
+  
+}
+
+#info-mail #iconCorreio {
+  background-image: url("../images/enviar-correo.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-top: 0.2em;
+  margin-left: 2em;
+
+}
+
+#info-mail p {
+  max-width: 400px;
+  font-size: 1.3em;
+  margin-right: 400px;
+  font-weight: 800;
+  padding: 15px 15px;
+  color: var(--text-color);
+}
+
+
+#info-mail input {
+  
+  padding: 10px 12px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: var(--text-color);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border: none;
+
+}
+
+#info-mail button{
+  background-color: var(--secondary);
+  border-radius: 20px;
+  color: var(--text-color);
+  border: none;
+  padding: 10px 10px;
+} 
+
+
+#info-mail .btnSeach:hover {
+  opacity: 1;
+}
+
+/*SECTION INFO-LOCATION ADDRESS PHONE*/
+
+#info-location {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--secondary);
+  padding: 25px 10px;
+}
+
+#info-location #info {
+  color: var(--text-color);
+  margin-left: 5em;
+}
+
+#info-location #info i {
+  position: absolute;
+  margin-left: -1.5em;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+#info-location #address {
+  margin-bottom: 2em;
+
+}
+
+#info-location #phone {
+  margin-bottom: 2em;
+
+}
+
+
+#titleLogo {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  /*Duvidas*/
+
+}
+
+#titleLogo img {
+  width: 20px;
+  height: 20px;
+}
+
+#titleLogo p {
+  font-size: 1.4em;
+  font-weight: 900;
+  color: var(--text-color);
+}
+
+#titleLogo #reftitleLogo p {
+  color: var(--primary);
+}
+
+/*FOOTER*/
+footer {
+  height: 20px;
+  background-color: var(--tertiary);
+}
+
+footer p {
+  color: var(--text-color);
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*Mobile Configs*/
+@media (max-width: 450px) {
+
+  #barInfo{
+    display: flex;
+    font-size: 0.7em;
+  }
+
+  #menu {
+    height: 100px;
+  }
+
+  #menu #titleLogo{
+    margin-bottom: 2em;
+    justify-content: center;
+  }
+
+  #disclaimer {
+    padding: 1em;
+  }
+
+  #disclaimer h2 {
+    margin-bottom: 2em;
+  }
+
+
+
+  /* Benefits section */
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 3em;
+  }
+
+  .benefit {
+    max-width: 100%;
+    margin-bottom: 3em;
+  }
+
+  /*Event Contat*/
+
+  #contat-form {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #contat-form #button {
+    display: flex;
+    margin-bottom: 0.5em;
+    flex-direction: row;
+  }
+
+  #info-mail {
+    display: block;
+    
+    max-width: 100%;
+
+  }
+
+  #info-mail p {
+    font-size: 1em;
+    margin: 0;
+
+  }
+
+
+  #info-mail input {
+   margin-top: 2px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+  }
+
+  #info-mail .btnSeach{
+    margin-right: 420px;
+  }
+
+  /* Event location */
+  #info-location #titleLogo {
+    margin-top: 30px;
+  }
+
+}
