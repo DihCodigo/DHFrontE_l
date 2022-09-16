@@ -1,0 +1,53 @@
+@import url("style.css");
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-detail {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)), url("../image/bg-detail-harrypotter.jpg");
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: start;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+
+.bg-detail:hover {
+    filter: brightness(300%);
+}
+
+.detail h1{
+    font-family: "Lobster", sans-serif;
+}
+.detail .star {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.detail p {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.detail #row {
+    flex-direction: column;
+}
+
+.detail #img-escritora {
+    background-image: url("../image/J.K.Rowling.jpg");
+}
+
+.detail .img-escritora {
+    width: 150px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+
+}

@@ -1,0 +1,109 @@
+:root {
+    /*TEXT COLOR*/
+    --text-primary: white;
+    --text-secondary: black;
+    /*BG COLOR*/
+    --bg-header-primary: #1CD1B0;
+    --bg-header-secundary: #00669F;
+
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.barDiscount {
+    background-color: var(--bg-header-primary);
+    width: 100vw;
+    height: 38px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header {
+    width: 100vw;
+    height: 101px;
+    background-color: var(--bg-header-secundary);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form .group-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;align-items: center;
+}
+
+form h1 {
+    width: 620px;
+    font-size: 4em;
+    font-family: "verdana";
+}
+
+input {
+    border: 1.53px solid black;
+    width: 620px;
+    height: 50px;
+    padding: 15px;
+}
+
+main .container-form button {
+    height: 54px;
+    background-color: var(--bg-header-primary);
+    border-radius: 40px;
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    margin-top: 20px;
+    padding: 5px 270px;
+}
+
+
+main .container-form p, a{
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+main h3 {
+    height: 28px;
+    width: 347px;
+    font-size: 21.5px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--text-secondary);
+    margin-top: 20px;
+}
+
+input::placeholder {
+    color: var(--text-secondary);
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 30px 0px;
+    width: 100%;
+    background-color: var(--bg-header-secundary);
+    color: var(--text-primary);
+}

@@ -1,0 +1,139 @@
+:root{
+    /*COLOR TEXT*/
+    --text-primary: rgb(12, 12, 145);
+    --tex-secondary: white;
+
+    /*COLOR DECORATION*/
+    --decoration-color:tomato;
+    --text-decoration-color: rgb(104, 17, 2);
+
+    /*COLOR BG*/
+    --bg-color-primary:#DDDDDD;
+    --bg-color-secondary: #B0C4DE;
+    --bg-color-terciary: #4682B4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header ul {
+    display: flex;
+    width: 40vw;
+    padding: 0px 5px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header .logo-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55px;
+    width: 185px;
+
+}
+header #logo-img {
+    background-image: url("../image/logo2.webp");   
+}
+
+header .menu a{
+    padding: 1px 20px;
+    color: var(--text-primary);
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: all 400ms ease;
+}
+
+header .menu a::before{
+    content: '';
+    width: 0px;
+    background: var(--decoration-color);
+    position: absolute;
+    margin-top: 30px;
+    height: 5px;
+    transition: all 0.7s ease;
+}
+header .menu a:hover::before{
+    width: 5.5vw;
+}
+
+/*CARROSEL*/
+#id-img {
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.sub-title-bg h2{
+    color: var(--decoration-color);
+    margin-bottom: 150px;
+    box-shadow: 36px -20px var(--decoration-color);
+    font-weight: 800;
+    font-size: 5em;
+}
+
+.carousel-inner p {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+/*CARDS*/
+
+.demo-h2 h2{
+    font-family: "Montserrat", sans-serif;
+    color: var(--tex-secondary);
+    background-color: var(--bg-color-primary);
+    font-size: 3em;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    text-shadow: 4px 4px var(--text-primary);
+
+
+}
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#card {
+    margin-bottom: 30px;
+    transition: .5s ease-in-out;
+}
+#card:hover {
+    transform: scale(1.05);
+    filter: brightness(130%);
+}
+
+
+/*Footer*/
+footer {
+    padding: 30px 20px;
+    background-color: var(--bg-color-primary);
+    font-family: "Montserrat", sans-serif;
+}
+
+#col {
+    margin-bottom: 20px;
+}
+
+footer .parag p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+

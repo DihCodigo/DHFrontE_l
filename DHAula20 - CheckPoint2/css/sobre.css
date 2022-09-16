@@ -1,0 +1,37 @@
+@import url("style.css");
+@import url("detail.css");
+
+body {
+    background-color: var(--bg-color-secondary);
+    font-family: "Montserrat", sans-serif;
+}
+
+.sobre {
+    width: 100%;
+    height: 700px;
+}
+
+.sobre #row {
+
+    margin-top: 150px;
+}
+
+.sobre #col2 {
+    background-color: whitesmoke;
+}
+
+.sobre .img-group {
+    width: 435px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre #img-group {
+    background-image: url("../image/digital-house.webp");
+}
+
+.sobre h3 {
+    color: var(--decoration-color);
+}

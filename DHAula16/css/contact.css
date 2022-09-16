@@ -1,0 +1,136 @@
+:root {
+    /*TEXT COLOR*/
+    --text-primary: white;
+    --text-secondary: black;
+    --text-terciary: #222222;
+    /*BG COLOR*/
+    --bg-header-primary: #1CD1B0;
+    --bg-header-secundary: #00669F;
+    /*BORDER COLOR*/
+    --border-primary: black;
+
+    /*BTN COLOR*/
+    --btn-primary: #696969;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.barDiscount {
+    background-color: var(--bg-header-primary);
+    width: 100vw;
+    height: 38px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header {
+    width: 100vw;
+    height: 101px;
+    background-color: var(--bg-header-secundary);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 700px;
+    border: 1px solid red;
+}
+
+form .group-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+
+form h1 {
+    width: 620px;
+    font-size: 4em;
+    font-family: "verdana";
+    color: var(--text-terciary);
+    margin-bottom: 100px;
+}
+
+form input {
+    border: 1.53px solid var(--border-primary);
+    width: 620px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    position: absolute;
+    width: 620px;
+    height: 300px;
+    top: 490px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+}
+
+
+main .group-button button {
+    height: 54px;
+    border-radius: 40px;
+    border: none;
+    color: var(--text-secondary);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    margin: 10px 5px;
+    padding: 5px 105px;
+}
+
+main .group-button .btn-limpar {
+    background-color: var(--btn-primary);
+    color: var(--text-primary);
+}
+main .group-button .btn-enviar {
+    background-color: var(--bg-header-primary);
+    color: var(--text-secondary);
+
+}
+
+
+main h3 {
+    height: 28px;
+    width: 347px;
+    font-size: 21.5px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--text-secondary);
+    margin-top: 20px;
+
+}
+
+input::placeholder {
+    color: var(--text-secondary);
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 30px 0px;
+    width: 100vw;
+    background-color: var(--bg-header-secundary);
+    color: var(--text-primary);
+}
