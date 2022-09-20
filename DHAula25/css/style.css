@@ -1,0 +1,76 @@
+:root {
+    --color-header: #345B63;
+    --color-nav: #152D35;
+    --color-text: #FBFFFF;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:1fr, 1fr repeat(2, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "aside section section section"
+    "aside section section section"
+    "aside section section section"
+    ;
+}
+
+.img {
+    height: 50vh;
+    width: 65vw;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img {
+    background-image: url(../img/paisagem.jpg);
+}
+
+header {
+    grid-area: header;
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: center;
+    color: var(--color-text);
+    padding: 10px;
+
+    
+}
+
+
+aside {
+    grid-area: aside;
+    list-style: none;
+    background-color: var(--color-nav);
+}
+
+nav li {
+    margin: 30px 50px;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-text)
+}
+
+section {
+    grid-area: section;
+    padding: 50px 65px;
+}
+
+section 
+p,
+h2 {
+    line-height: 20px;
+    margin-top: 10px;
+}
